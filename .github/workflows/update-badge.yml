@@ -1,9 +1,6 @@
 name: Update AoC badge
 
-on:
-  schedule:
-    - cron: '0 0 * 1-11 1'
-    - cron: '0 0 * 12 *'
+on: push
 
 jobs:
   update:
